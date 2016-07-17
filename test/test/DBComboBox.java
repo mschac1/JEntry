@@ -9,14 +9,17 @@
 
 package ext.javax.swing.db;
 
+import jentry.sql.swing.DBFieldControl;
+import jentry.sql.swing.AbstractDBContainer;
+import jentry.sql.swing.DBRecordSetContainer;
 import ext.java.lang.NumberSupport;
-import ext.java.sql.Query;
-import ext.java.sql.TypeConversionSupport;
+import jentry.sql.Query;
+import jentry.sql.TypeConversionSupport;
 import ext.java.util.ListSupport;
 import ext.javax.swing.WindowClosingException;
-import ext.javax.swing.db.event.DBFieldUpdateEvent;
-import ext.javax.swing.db.event.FormFieldUpdateEvent;
-import ext.javax.swing.db.event.FormFieldUpdateListener;
+import jentry.sql.events.DBFieldUpdateEvent;
+import jentry.sql.events.FormFieldUpdateEvent;
+import jentry.sql.events.FormFieldUpdateListener;
 import java.awt.Window;
 import java.awt.event.*;
 import javax.swing.*;

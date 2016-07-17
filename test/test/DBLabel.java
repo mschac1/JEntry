@@ -9,10 +9,12 @@
 
 package ext.javax.swing.db;
 
-import ext.java.sql.TypeConversionSupport;
-import ext.javax.swing.db.event.DBFieldUpdateEvent;
-import ext.javax.swing.db.event.DBFieldUpdateListener;
-import ext.javax.swing.db.event.FormFieldUpdateListener;
+import jentry.sql.swing.DBFieldControl;
+import jentry.sql.swing.DBRecordSetContainer;
+import jentry.sql.TypeConversionSupport;
+import jentry.sql.events.DBFieldUpdateEvent;
+import jentry.sql.events.DBFieldUpdateListener;
+import jentry.sql.events.FormFieldUpdateListener;
 import java.text.Format;
 import javax.swing.JLabel;
 

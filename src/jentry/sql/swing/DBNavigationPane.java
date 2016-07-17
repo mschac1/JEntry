@@ -6,11 +6,9 @@
 
 package jentry.sql.swing;
 
-import ext.java.sql.event.RecordSetChangeEvent;
-import ext.java.sql.event.RecordSetChangeListener;
+import jentry.sql.events.RecordSetChangeEvent;
+import jentry.sql.events.RecordSetChangeListener;
 import ext.java.util.VetoException;
-import ext.javax.swing.db.DBRecordSetContainer;
-import ext.javax.swing.db.DBRecordSetContainer;
 import javax.swing.JOptionPane;
 
 /*TODO 1.1 - Change mechanics so that DBNavigationPane is a container for DBSourceControls
