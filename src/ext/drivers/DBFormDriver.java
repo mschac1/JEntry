@@ -89,7 +89,7 @@ public class DBFormDriver extends javax.swing.JFrame {
 		dbtf.setPreferredSize(new Dimension(75, 20));
     dbf.add(dbtf);  
     
-    DBCheckBox dbcb = new DBCheckBox("FAT");
+    DBCheckBox dbcb = new DBCheckBox("ACTIVE");
     dbcb.setDefaultValue(true);
     dbf.add(dbcb);
     

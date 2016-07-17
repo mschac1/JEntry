@@ -9,6 +9,7 @@
 
 package ext.javax.swing.db;
 
+import jentry.sql.swing.DBNavigationPane;
 import ext.java.lang.ArraySupport;
 import ext.java.sql.Query;
 import ext.java.sql.event.RecordSetChangeEvent;
